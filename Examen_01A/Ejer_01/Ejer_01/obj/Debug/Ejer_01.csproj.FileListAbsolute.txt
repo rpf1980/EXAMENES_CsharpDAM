@@ -1,0 +1,6 @@
+C:\BORRADOR\EXAMENES\Examen_01A\Ejer_01\Ejer_01\bin\Debug\Ejer_01.exe.config
+C:\BORRADOR\EXAMENES\Examen_01A\Ejer_01\Ejer_01\bin\Debug\Ejer_01.exe
+C:\BORRADOR\EXAMENES\Examen_01A\Ejer_01\Ejer_01\bin\Debug\Ejer_01.pdb
+C:\BORRADOR\EXAMENES\Examen_01A\Ejer_01\Ejer_01\obj\Debug\Ejer_01.csprojAssemblyReference.cache
+C:\BORRADOR\EXAMENES\Examen_01A\Ejer_01\Ejer_01\obj\Debug\Ejer_01.exe
+C:\BORRADOR\EXAMENES\Examen_01A\Ejer_01\Ejer_01\obj\Debug\Ejer_01.pdb
