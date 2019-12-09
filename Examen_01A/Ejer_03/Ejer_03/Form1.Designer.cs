@@ -103,6 +103,7 @@
             this.idTxtDen1.Name = "idTxtDen1";
             this.idTxtDen1.Size = new System.Drawing.Size(104, 28);
             this.idTxtDen1.TabIndex = 3;
+            this.idTxtDen1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.idTxtDen1_KeyPress);
             // 
             // label2
             // 
@@ -119,6 +120,7 @@
             this.idTxtNum1.Name = "idTxtNum1";
             this.idTxtNum1.Size = new System.Drawing.Size(104, 28);
             this.idTxtNum1.TabIndex = 1;
+            this.idTxtNum1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.idTxtNum1_KeyPress);
             // 
             // label1
             // 
@@ -180,6 +182,7 @@
             this.idTxtDen2.Name = "idTxtDen2";
             this.idTxtDen2.Size = new System.Drawing.Size(104, 28);
             this.idTxtDen2.TabIndex = 3;
+            this.idTxtDen2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.idTxtDen2_KeyPress);
             // 
             // label5
             // 
@@ -196,6 +199,7 @@
             this.idTxtNum2.Name = "idTxtNum2";
             this.idTxtNum2.Size = new System.Drawing.Size(104, 28);
             this.idTxtNum2.TabIndex = 1;
+            this.idTxtNum2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.idTxtNum2_KeyPress);
             // 
             // label6
             // 

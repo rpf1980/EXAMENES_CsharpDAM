@@ -1,0 +1,9 @@
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_03\Ejerc_03\bin\Debug\Ejerc_03.exe.config
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_03\Ejerc_03\bin\Debug\Ejerc_03.exe
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_03\Ejerc_03\bin\Debug\Ejerc_03.pdb
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_03\Ejerc_03\obj\Debug\Ejerc_03.csprojAssemblyReference.cache
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_03\Ejerc_03\obj\Debug\Ejerc_03.Form1.resources
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_03\Ejerc_03\obj\Debug\Ejerc_03.Properties.Resources.resources
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_03\Ejerc_03\obj\Debug\Ejerc_03.csproj.GenerateResource.cache
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_03\Ejerc_03\obj\Debug\Ejerc_03.exe
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_03\Ejerc_03\obj\Debug\Ejerc_03.pdb

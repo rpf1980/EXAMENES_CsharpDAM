@@ -1,0 +1,6 @@
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_02\Ejerc_02\bin\Debug\Ejerc_02.exe.config
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_02\Ejerc_02\bin\Debug\Ejerc_02.exe
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_02\Ejerc_02\bin\Debug\Ejerc_02.pdb
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_02\Ejerc_02\obj\Debug\Ejerc_02.exe
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_02\Ejerc_02\obj\Debug\Ejerc_02.pdb
+C:\BORRADOR\EXAMENES\Examen_01B\Ejerc_02\Ejerc_02\obj\Debug\Ejerc_02.csprojAssemblyReference.cache

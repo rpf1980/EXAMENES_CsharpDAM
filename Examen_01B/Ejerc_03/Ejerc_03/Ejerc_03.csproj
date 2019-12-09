@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9669747A-5B03-425C-AAE4-9347460740DB}</ProjectGuid>
+    <ProjectGuid>{D89E69C5-39FE-429B-A651-49712A49C16E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Ejer_03</RootNamespace>
-    <AssemblyName>Ejer_03</AssemblyName>
+    <RootNamespace>Ejerc_03</RootNamespace>
+    <AssemblyName>Ejerc_03</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,13 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Complejo.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Fraccion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validar.cs" />

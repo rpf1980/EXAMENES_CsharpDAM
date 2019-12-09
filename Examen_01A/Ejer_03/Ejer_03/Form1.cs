@@ -80,5 +80,29 @@ namespace Ejer_03
 
             idTxtProducto.Text = fraccion1.Multiplicar(fraccion2).Mostrar();
         }
+
+        //Validamos campo NUMERADOR 1 con la clase Validar
+        private void idTxtNum1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.SoloNumeros(e);
+        }
+
+        //Validamos campo DENOMINADOR 1 con la clase Validar
+        private void idTxtDen1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.SoloNumeros(e);
+        }
+
+        //Validamos campo NUMERADOR 2 con la clase Validar
+        private void idTxtNum2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.SoloNumeros(e);
+        }
+
+        //Validamos campo DENOMINADOR 2 con la clase Validar
+        private void idTxtDen2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.SoloNumeros(e);
+        }
     }
 }
