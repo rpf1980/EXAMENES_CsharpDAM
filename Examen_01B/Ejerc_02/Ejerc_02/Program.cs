@@ -14,12 +14,9 @@ namespace Ejerc_02
             Complejo comp2 = new Complejo(2, 7);
             Complejo res = new Complejo();
 
-            Console.WriteLine(res.Sumar(comp1, comp2).Mostrar());
-            Console.WriteLine(res.Multiplicar(comp1, comp2).Mostrar());
-
-            Console.WriteLine($"Real 1 = {comp1.ParteReal}");
-            Console.WriteLine($"Imag 1 = {comp1.ParteImaginaria}");
-
+            Console.WriteLine($"SUMA = {res.Sumar(comp1, comp2).Mostrar()}");
+            Console.WriteLine($"PRODUCTO = {res.Multiplicar(comp1, comp2).Mostrar()}");
+          
             Console.ReadKey();
         }
     }
