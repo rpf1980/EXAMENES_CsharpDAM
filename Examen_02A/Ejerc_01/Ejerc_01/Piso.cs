@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejerc_01
 {
-    class Piso
+    public class Piso
     {
         //Atributos
         private int id;

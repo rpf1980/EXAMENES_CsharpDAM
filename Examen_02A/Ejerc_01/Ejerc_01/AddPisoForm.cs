@@ -73,7 +73,7 @@ namespace Ejerc_01
 
                     //3. Abrimos de nuevo el fichero
                     fichero = new FileStream("data.xml", FileMode.Open);
-                    inmobiliaria.AddPiso(piso);
+                    inmobiliaria.ListaPisos1.Add(piso);
                     XmlSerializer format2 = new XmlSerializer(inmobiliaria.GetType());
                     format2.Serialize(fichero, inmobiliaria);
 
@@ -85,7 +85,7 @@ namespace Ejerc_01
 
                     //1. Creamos el fichero
                     fichero = new FileStream("data.xml", FileMode.Create);
-                    inmobiliaria.AddPiso(piso);
+                    inmobiliaria.ListaPisos1.Add(piso);
 
                     //Creamos formateador XML
                     XmlSerializer format = new XmlSerializer(inmobiliaria.GetType());

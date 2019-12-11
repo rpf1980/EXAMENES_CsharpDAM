@@ -9,14 +9,15 @@ namespace Ejerc_01
 {
     [Serializable()]
     [XmlRoot("Inmobiliaria")]
-    class Inmobiliaria
+    public class Inmobiliaria
     {
-        public List<Piso> ListaPisos { get; set; }
+        private List<Piso> ListaPisos = new List<Piso>();
 
-        //Métodos
-        public void AddPiso(Piso piso)
+        public Inmobiliaria() 
         {
-            ListaPisos.Add(piso);
+            this.ListaPisos = new List<Piso>();
         }
+
+        public List<Piso> ListaPisos1 { get => ListaPisos; set => ListaPisos = value; }     
     }
 }

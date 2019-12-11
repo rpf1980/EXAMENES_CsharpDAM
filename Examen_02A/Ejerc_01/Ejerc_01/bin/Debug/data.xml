@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Inmobiliaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ListaPisos1>
+    <Piso>
+      <Id>23</Id>
+      <Direccion>sdfasd</Direccion>
+      <Superficie>34</Superficie>
+      <Orientacion>dfasd</Orientacion>
+      <Precio>33333</Precio>
+    </Piso>
+  </ListaPisos1>
+</Inmobiliaria>
