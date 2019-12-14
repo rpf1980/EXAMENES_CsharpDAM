@@ -20,3 +20,16 @@ C:\Users\RPF\Documents\GitHub\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\ob
 C:\Users\RPF\Documents\GitHub\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\obj\Debug\Ejerc_01.csproj.GenerateResource.cache
 C:\Users\RPF\Documents\GitHub\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\obj\Debug\Ejerc_01.exe
 C:\Users\RPF\Documents\GitHub\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\obj\Debug\Ejerc_01.pdb
+C:\FORM_windowsCsharp\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\bin\Debug\Ejerc_01.exe.config
+C:\FORM_windowsCsharp\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\bin\Debug\Ejerc_01.exe
+C:\FORM_windowsCsharp\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\bin\Debug\Ejerc_01.pdb
+C:\FORM_windowsCsharp\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\obj\Debug\Ejerc_01.csprojAssemblyReference.cache
+C:\FORM_windowsCsharp\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\obj\Debug\Ejerc_01.AddPisoForm.resources
+C:\FORM_windowsCsharp\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\obj\Debug\Ejerc_01.MenuForm.resources
+C:\FORM_windowsCsharp\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\obj\Debug\Ejerc_01.Properties.Resources.resources
+C:\FORM_windowsCsharp\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\obj\Debug\Ejerc_01.csproj.GenerateResource.cache
+C:\FORM_windowsCsharp\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\obj\Debug\Ejerc_01.exe
+C:\FORM_windowsCsharp\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\obj\Debug\Ejerc_01.pdb
+C:\FORM_windowsCsharp\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\obj\Debug\Ejerc_01.FormBuscarPiso.resources
+C:\FORM_windowsCsharp\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\obj\Debug\Ejerc_01.FormMenu.resources
+C:\FORM_windowsCsharp\EXAMENES_CsharpDAM\Examen_02A\Ejerc_01\Ejerc_01\obj\Debug\Ejerc_01.FormAddPiso.resources

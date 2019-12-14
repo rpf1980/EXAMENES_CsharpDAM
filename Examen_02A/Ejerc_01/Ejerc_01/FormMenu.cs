@@ -10,25 +10,28 @@ using System.Windows.Forms;
 
 namespace Ejerc_01
 {
-    public partial class MenuForm : Form
+    public partial class FormMenu : Form
     {
-        AddPisoForm addPisoForm = null;
-        FormBuscarPiso form1 = null;
-        public MenuForm()
+        FormBuscarPiso formBuscar = null;
+        FormAddPiso formAdd = null;
+
+        public FormMenu()
         {
             InitializeComponent();
         }
 
+        //Btn AÑADIR PISO
         private void button1_Click(object sender, EventArgs e)
         {
-            addPisoForm = new AddPisoForm();
-            addPisoForm.Show();
+            formAdd = new FormAddPiso();
+            formAdd.Show();
         }
 
+        //Btn BUSCAR PISO
         private void button2_Click(object sender, EventArgs e)
         {
-            form1 = new FormBuscarPiso();
-            form1.Show();
+            formBuscar = new FormBuscarPiso();
+            formBuscar.Show();
         }
     }
 }

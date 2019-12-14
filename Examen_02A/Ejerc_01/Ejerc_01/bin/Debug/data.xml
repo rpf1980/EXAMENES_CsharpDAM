@@ -8,5 +8,26 @@
       <Orientacion>dfasd</Orientacion>
       <Precio>33333</Precio>
     </Piso>
+    <Piso>
+      <Id>1</Id>
+      <Direccion>Avd. Salud Gallego Nº 12</Direccion>
+      <Superficie>953</Superficie>
+      <Orientacion>Norte</Orientacion>
+      <Precio>200</Precio>
+    </Piso>
+    <Piso>
+      <Id>2</Id>
+      <Direccion>Plaza de la Esperanza</Direccion>
+      <Superficie>1003</Superficie>
+      <Orientacion>Noroeste</Orientacion>
+      <Precio>300</Precio>
+    </Piso>
+    <Piso>
+      <Id>4</Id>
+      <Direccion>PLAZA DEL REY ARTURO </Direccion>
+      <Superficie>90</Superficie>
+      <Orientacion>Norte</Orientacion>
+      <Precio>349</Precio>
+    </Piso>
   </ListaPisos1>
 </Inmobiliaria>

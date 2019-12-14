@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejerc_01
+namespace Ejerc_02
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Ejerc_01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMenu());
+            Application.Run(new Form1());
         }
     }
 }

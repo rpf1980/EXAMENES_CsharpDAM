@@ -1,6 +1,6 @@
 ﻿namespace Ejerc_01
 {
-    partial class Form1
+    partial class FormBuscarPiso
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkSuperficie = new System.Windows.Forms.CheckBox();
-            this.checkOrientacion = new System.Windows.Forms.CheckBox();
             this.checkPrecio = new System.Windows.Forms.CheckBox();
+            this.checkOrientacion = new System.Windows.Forms.CheckBox();
+            this.checkSuperficie = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.richTextBox = new System.Windows.Forms.RichTextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textCriterio = new System.Windows.Forms.TextBox();
+            this.idTxtCriterio = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -53,15 +53,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "CRITERIO DE BÚSQUEDA";
             // 
-            // checkSuperficie
+            // checkPrecio
             // 
-            this.checkSuperficie.AutoSize = true;
-            this.checkSuperficie.Location = new System.Drawing.Point(26, 40);
-            this.checkSuperficie.Name = "checkSuperficie";
-            this.checkSuperficie.Size = new System.Drawing.Size(117, 24);
-            this.checkSuperficie.TabIndex = 0;
-            this.checkSuperficie.Text = "Superficie";
-            this.checkSuperficie.UseVisualStyleBackColor = true;
+            this.checkPrecio.AutoSize = true;
+            this.checkPrecio.Location = new System.Drawing.Point(26, 125);
+            this.checkPrecio.Name = "checkPrecio";
+            this.checkPrecio.Size = new System.Drawing.Size(82, 24);
+            this.checkPrecio.TabIndex = 2;
+            this.checkPrecio.Text = "Precio";
+            this.checkPrecio.UseVisualStyleBackColor = true;
             // 
             // checkOrientacion
             // 
@@ -73,15 +73,15 @@
             this.checkOrientacion.Text = "Orientación";
             this.checkOrientacion.UseVisualStyleBackColor = true;
             // 
-            // checkPrecio
+            // checkSuperficie
             // 
-            this.checkPrecio.AutoSize = true;
-            this.checkPrecio.Location = new System.Drawing.Point(26, 125);
-            this.checkPrecio.Name = "checkPrecio";
-            this.checkPrecio.Size = new System.Drawing.Size(82, 24);
-            this.checkPrecio.TabIndex = 2;
-            this.checkPrecio.Text = "Precio";
-            this.checkPrecio.UseVisualStyleBackColor = true;
+            this.checkSuperficie.AutoSize = true;
+            this.checkSuperficie.Location = new System.Drawing.Point(26, 40);
+            this.checkSuperficie.Name = "checkSuperficie";
+            this.checkSuperficie.Size = new System.Drawing.Size(117, 24);
+            this.checkSuperficie.TabIndex = 0;
+            this.checkSuperficie.Text = "Superficie";
+            this.checkSuperficie.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -112,13 +112,13 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Valor para el criterio";
             // 
-            // textCriterio
+            // idTxtCriterio
             // 
-            this.textCriterio.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textCriterio.Location = new System.Drawing.Point(433, 125);
-            this.textCriterio.Name = "textCriterio";
-            this.textCriterio.Size = new System.Drawing.Size(276, 28);
-            this.textCriterio.TabIndex = 4;
+            this.idTxtCriterio.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idTxtCriterio.Location = new System.Drawing.Point(433, 125);
+            this.idTxtCriterio.Name = "idTxtCriterio";
+            this.idTxtCriterio.Size = new System.Drawing.Size(276, 28);
+            this.idTxtCriterio.TabIndex = 4;
             // 
             // button1
             // 
@@ -132,8 +132,9 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "BUSCAR";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // FormBuscarPiso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -141,16 +142,16 @@
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1000, 551);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textCriterio);
+            this.Controls.Add(this.idTxtCriterio);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.richTextBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "FormBuscarPiso";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EJERCICIO 1 - OPCIÓN A";
+            this.Text = "BUSCAR PISO";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -167,7 +168,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox richTextBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textCriterio;
+        private System.Windows.Forms.TextBox idTxtCriterio;
         private System.Windows.Forms.Button button1;
     }
 }
