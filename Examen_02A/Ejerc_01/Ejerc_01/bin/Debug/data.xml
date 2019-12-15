@@ -29,5 +29,12 @@
       <Orientacion>Norte</Orientacion>
       <Precio>349</Precio>
     </Piso>
+    <Piso>
+      <Id>4</Id>
+      <Direccion>Calle Barbate</Direccion>
+      <Superficie>30</Superficie>
+      <Orientacion>Sur</Orientacion>
+      <Precio>200</Precio>
+    </Piso>
   </ListaPisos1>
 </Inmobiliaria>

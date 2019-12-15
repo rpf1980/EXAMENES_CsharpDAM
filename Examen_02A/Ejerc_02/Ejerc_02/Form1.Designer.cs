@@ -32,13 +32,13 @@
             this.idTxtRuta = new System.Windows.Forms.TextBox();
             this.idBtnExplorar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.richTextBox = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.idTxtNombre = new System.Windows.Forms.TextBox();
             this.idTxtFecha = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.idTxtTama = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.listBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -62,7 +62,7 @@
             // idBtnExplorar
             // 
             this.idBtnExplorar.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.idBtnExplorar.Location = new System.Drawing.Point(365, 107);
+            this.idBtnExplorar.Location = new System.Drawing.Point(330, 118);
             this.idBtnExplorar.Name = "idBtnExplorar";
             this.idBtnExplorar.Size = new System.Drawing.Size(153, 32);
             this.idBtnExplorar.TabIndex = 2;
@@ -80,15 +80,6 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "FICHEROS";
             // 
-            // richTextBox
-            // 
-            this.richTextBox.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox.Location = new System.Drawing.Point(179, 223);
-            this.richTextBox.Name = "richTextBox";
-            this.richTextBox.Size = new System.Drawing.Size(304, 202);
-            this.richTextBox.TabIndex = 4;
-            this.richTextBox.Text = "";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -104,7 +95,7 @@
             this.idTxtNombre.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.idTxtNombre.Location = new System.Drawing.Point(553, 223);
             this.idTxtNombre.Name = "idTxtNombre";
-            this.idTxtNombre.Size = new System.Drawing.Size(204, 28);
+            this.idTxtNombre.Size = new System.Drawing.Size(274, 28);
             this.idTxtNombre.TabIndex = 6;
             // 
             // idTxtFecha
@@ -112,7 +103,7 @@
             this.idTxtFecha.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.idTxtFecha.Location = new System.Drawing.Point(553, 299);
             this.idTxtFecha.Name = "idTxtFecha";
-            this.idTxtFecha.Size = new System.Drawing.Size(204, 28);
+            this.idTxtFecha.Size = new System.Drawing.Size(274, 28);
             this.idTxtFecha.TabIndex = 8;
             // 
             // label4
@@ -130,7 +121,7 @@
             this.idTxtTama.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.idTxtTama.Location = new System.Drawing.Point(553, 386);
             this.idTxtTama.Name = "idTxtTama";
-            this.idTxtTama.Size = new System.Drawing.Size(204, 28);
+            this.idTxtTama.Size = new System.Drawing.Size(274, 28);
             this.idTxtTama.TabIndex = 10;
             // 
             // label5
@@ -143,23 +134,34 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "TAMAÑO";
             // 
+            // listBox
+            // 
+            this.listBox.FormattingEnabled = true;
+            this.listBox.ItemHeight = 16;
+            this.listBox.Location = new System.Drawing.Point(179, 225);
+            this.listBox.Name = "listBox";
+            this.listBox.Size = new System.Drawing.Size(313, 180);
+            this.listBox.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(885, 479);
+            this.ClientSize = new System.Drawing.Size(1013, 502);
+            this.Controls.Add(this.listBox);
             this.Controls.Add(this.idTxtTama);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.idTxtFecha);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.idTxtNombre);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.richTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.idBtnExplorar);
             this.Controls.Add(this.idTxtRuta);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EJERCICIO 2 - OPCIÓN A";
@@ -174,13 +176,13 @@
         private System.Windows.Forms.TextBox idTxtRuta;
         private System.Windows.Forms.Button idBtnExplorar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RichTextBox richTextBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox idTxtNombre;
         private System.Windows.Forms.TextBox idTxtFecha;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox idTxtTama;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ListBox listBox;
     }
 }
 
